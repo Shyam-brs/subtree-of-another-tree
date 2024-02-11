@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check if a tree is a subtree of another tree</title>
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+  <body>
+    <h1>Check if a tree is a subtree of another tree</h1>
+    <label for="rootInput">Enter the root of the first tree:</label><br />
+    <input
+      type="text"
+      id="rootInput"
+      placeholder="1,2,3,null,null,4,5,null,null,null,null"
+    /><br />
+    <label for="subRootInput">Enter the root of the second tree:</label><br />
+    <input type="text" id="subRootInput" placeholder="4,1" /><br />
+    <button onclick="checkSubtree()">Check Subtree</button><br /><br />
+    <label for="output">Result:</label><br />
+    <div id="output"></div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
